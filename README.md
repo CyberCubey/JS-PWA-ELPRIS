@@ -36,3 +36,4 @@ Font: Roboto, Palette: #27282B, #201E1E, #55EC20, #EBEBEB.
 Icons: FontAwesome.
 Palette of the gradient colors: #00FF29, #33FF00, #B8FF22, #EDFF23, #FFD645, #FF7A00, #FF8717, #FF4D00.
 
+https://elprisen.netlify.app
