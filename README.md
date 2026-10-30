@@ -28,3 +28,11 @@ Under indstillinger skal man kunne skifte mellem vest og øst Danmark som skal r
 
 Jonathan Udholm Hansen,
 Tænkt mig at bruge Green Sock til animation, men jeg vil gerne prøve at bare lav til den for det meste i Javascript, i stedet for React, som jeg går sidst.
+Update: fik brugt noget AI til at hjælpe i processen af styling. COuldn't get the date-system to work with the API, so it's been changed to current ig
+
+Design specs:
+Font: Roboto, Palette: #27282B, #201E1E, #55EC20, #EBEBEB.
+
+Icons: FontAwesome.
+Palette of the gradient colors: #00FF29, #33FF00, #B8FF22, #EDFF23, #FFD645, #FF7A00, #FF8717, #FF4D00.
+

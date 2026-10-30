@@ -1,0 +1,45 @@
+.history-price-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+
+
+
+.history-price-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    min-height: 36px;
+    padding: 0 39px;
+    border: 1px solid #343333;
+
+    border-radius: 10px;
+    background-color: #201E1E;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    color: #EBEBEB;
+    font-size: 14px;
+
+}
+
+.history-price-row strong {
+    font-weight: 400;
+
+
+}
+
+
+.price-color-1 { color: #00FF29; }
+.price-color-2 { color: #33FF00; }
+.price-color-3 { color: #B8FF22; }
+.price-color-4 { color: #EDFF23; }
+.price-color-5 { color: #FFD645; }
+.price-color-6 { color: #FF7A00; }
+.price-color-7 { color: #FF8717; }
+.price-color-8 { color: #FF4D00; }
+

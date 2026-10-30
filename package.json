@@ -1,0 +1,15 @@
+{
+	"name": "js-pwa-elpris",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "sass --no-source-map assets/css/site.scss assets/css/site.css",
+		"watch:css": "sass --watch --no-source-map assets/css/site.scss:assets/css/site.css",
+		"dev": "concurrently --kill-others \"npm:watch:css\" \"live-server --no-browser --port=5500\""
+	},
+	"devDependencies": {
+		"concurrently": "^9.2.1",
+		"live-server": "^1.2.2",
+		"sass": "^1.93.2"
+	}
+}

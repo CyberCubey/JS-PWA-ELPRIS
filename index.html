@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>name</title>
+
+    <meta name="description" content="Elpriser i Danmark.">
+    <meta name="theme-color" content="#27282B">
+    <title>Elprisen</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
     <link rel="stylesheet" href="/assets/css/site.css">
-    <script src="assets/js/site.js" defer></script>
-</head>
-<body></body>
-</html></html>
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    
+    <script type="module" src="/src/App.js"></script>
+</head><body>
+    <nav class="mobile-navigation" aria-label="Hovedmenu">
+        <a href="#overview">Oversigt</a>
+        <a href="#home">Lige nu</a>
+        <a href="#history">Historik</a>
+    </nav>
+    <main id="root" tabindex="-1" aria-live="polite"></main>
+</body></html>
+

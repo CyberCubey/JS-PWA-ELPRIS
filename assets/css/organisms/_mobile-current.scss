@@ -1,0 +1,90 @@
+@media (max-width: 767px) {
+    main#root:has(.current-screen) {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        min-height: calc(100svh - 84px);
+        padding: 0;
+    }
+
+    .current-screen {
+        position: relative;
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+
+        align-items: center;
+        box-sizing: border-box;
+        min-height: 580px;
+        margin: 4px 4px 0;
+
+        padding: 68px 16px 28px;
+        background-color: #27282B;
+        text-align: center;
+
+
+    }
+
+    .current-screen h1 {
+        margin: 0;
+        color: #EBEBEB;
+
+        font-size: clamp(22px, 6.8vw, 26px);
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+
+
+    .price-dial {
+        position: relative;
+        display: grid;
+        flex: 0 0 auto;
+        place-items: center;
+
+        width: min(74vw, 280px);
+        aspect-ratio: 1;
+        margin-top: 70px;
+        border: 1px solid #343333;
+
+        border-radius: 50%;
+        background: #201E1E;
+        box-shadow: none;
+
+    }
+
+
+    .price-dial__value {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        color: #55EC20;
+        font-family: Roboto, Arial, sans-serif;
+        font-weight: 700;
+        line-height: 1.05;
+    }
+
+
+
+    .price-dial__number {
+        font-size: clamp(29px, 8.5vw, 34px);
+    }
+
+    .price-dial__unit {
+        font-size: 14px;
+    }
+
+    .current-hour {
+        margin: 25px 0 0;
+        color: #55EC20;
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.25;
+    }
+
+
+    
+}

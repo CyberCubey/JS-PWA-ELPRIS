@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+    body {
+        margin: 0;
+        color: #EBEBEB;
+        font-family: Roboto, Arial, sans-serif;
+        background-color: #27282B;
+        
+    }
+
+
+    main {
+        padding: 18px 16px 32px;
+    }
+
+    main h1 {
+        margin: 8px 0 20px;
+        color: #EBEBEB;
+        font-size: clamp(1.75rem, 7vw, 2rem);
+
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+    }}
+

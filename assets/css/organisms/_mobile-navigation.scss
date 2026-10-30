@@ -1,0 +1,22 @@
+@media (max-width: 767px) {
+    
+    .mobile-navigation {
+        position: sticky;
+        z-index: 10;
+        top: 0;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: clamp(8px, 2.5vw, 12px);
+        min-height: 84px;
+
+        margin: 0;
+        padding: 8px 14px;
+        background-color: #201E1E;
+        border-radius: 0;
+        box-sizing: border-box;
+
+    }
+}
+

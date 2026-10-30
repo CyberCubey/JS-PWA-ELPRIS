@@ -1,0 +1,22 @@
+.price-disclaimer {
+    display: grid;
+    flex: 0 0 84px;
+    place-items: center;
+    box-sizing: border-box;
+
+    padding: 10px 12px;
+    background-color: #201E1E;
+    color: #EBEBEB;
+    text-align: center;
+}
+
+
+.price-disclaimer p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+.price-disclaimer span {
+    color: #55EC20;
+}

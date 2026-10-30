@@ -1,0 +1,61 @@
+@use "atoms/mobile-nav-logo";
+@use "atoms/mobile-nav-link";
+@use "atoms/mobile-page-foundation";
+@use "atoms/page-settings-icon";
+
+@use "molecules/mobile-nav-links";
+@use "molecules/price-disclaimer";
+@use "organisms/mobile-navigation";
+@use "organisms/mobile-current";
+@use "atoms/history-date-picker";
+
+@use "molecules/history-price-row";
+@use "organisms/mobile-history";
+
+
+@use "molecules/overview-summary";
+@use "organisms/mobile-overview";
+
+
+/* Font: Roboto, Palette: #27282B, #201E1E, #55EC20, #EBEBEB.
+/* Icons: FontAwesome.
+/* Palette of the gradient colors: #00FF29, #33FF00, #B8FF22, #EDFF23, #FFD645, #FF7A00, #FF8717, #FF4D00. */
+
+$background-color: #27282B;
+$dark1: #1E1E1E;
+$dark2: #201E1E;
+$green: #55EC20;
+$white: #EBEBEB;
+
+$gradient1: #00FF29;
+$gradient2: #33FF00;
+$gradient3: #B8FF22;
+$gradient4: #EDFF23;
+$gradient5: #FFD645;
+$gradient6: #FF7A00;
+$gradient7: #FF8717;
+$gradient8: #FF4D00;
+
+* {
+    scrollbar-width: none;
+    -ms-overflow-style: none; }
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: $background-color;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+input,
+textarea,
+[contenteditable="true"] {
+    -webkit-user-select: text;
+    user-select: text;  }
+
+
+    

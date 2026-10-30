@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .mobile-navigation::before {
+        content: "";
+        display: block;
+        flex: 0 0 58px;
+        
+        width: 58px;
+        height: 58px;
+        background: url("../img/favicon.png") center / contain no-repeat;
+    }
+}
